@@ -1,10 +1,5 @@
-Though Logistic Regress(LR) and linear discriminant analysis(LDA) are similar there
-exist some differences between the two. LR makes no assumptions on the distributions of the data
-LDA assumes normally distributed variables.
-LR can be unstable when the classes are well separated. less so for LDA
-
-
-The differences between the results of Linear Discriminate Analysis and Logistic Regression could be caused by a number of items.
-One reason could be that Logistic Regression does not do quite as well as Linear Discriminate Analysis when the sample size is small
-Another reason could be that the petals of the iris are well separated and Logistic Regression is not as stable as Linear Discriminate Analysis when this is the case. This could
-also explain the wide range of accuracy scores we got for LR. 
+The differences between the results of Linear Discriminant Analysis and Logistic Regression could 
+be caused by a number of items. One reason could be that Logistic Regression does not do quite as well 
+as Linear Discriminant Analysis when the sample size is small and I chose less than optimal split in the training and test sets. 
+Another reason could be that the petals of the iris are well separated and Logistic Regression is not as stable as 
+Linear Discriminant Analysis when this is the case. This could also explain the wide range of accuracy scores we got when using Logistic Regression.

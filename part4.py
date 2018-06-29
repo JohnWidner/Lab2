@@ -20,4 +20,6 @@ for x in range(1,50):
     accuracy.append(acc)
 
 plt.plot([i for i in range(1,50)],accuracy, color='red')
+plt.xlabel("Number of neighbors")
+plt.ylabel("Accuracy")
 plt.show()
