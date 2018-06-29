@@ -6,5 +6,5 @@ LR can be unstable when the classes are well separated. less so for LDA
 
 The differences between the results of Linear Discriminate Analysis and Logistic Regression could be caused by a number of items.
 One reason could be that Logistic Regression does not do quite as well as Linear Discriminate Analysis when the sample size is small
-Another reason could be that the petals of the iris are well separated and Logistic Regression is not as stable as Linear Discriminate Analysis. This could
+Another reason could be that the petals of the iris are well separated and Logistic Regression is not as stable as Linear Discriminate Analysis when this is the case. This could
 also explain the wide range of accuracy scores we got for LR. 
